@@ -4,12 +4,14 @@ const program = require("../algos/largestConsecutive");
 describe("Largest Consecutive", function() {
   it("errors if empty array", function() {
     const testInput = [];
-    chai.expect(() => program.largestConsecutive(testInput)).to.throw();
+    chai.expect(() => program.largestConsecutive(testInput)).to.throw("empty");
   });
 
   it("errors if array of non-integers", function() {
     const testInput = ["abc", "xyz", "hij"];
-    chai.expect(() => program.largestConsecutive(testInput)).to.throw();
+    chai
+      .expect(() => program.largestConsecutive(testInput))
+      .to.throw("non-integers");
   });
 
   it("perfect case (4 items)", function() {

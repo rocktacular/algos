@@ -48,7 +48,7 @@ function largestConsecutive(array) {
   // loop over starting position
   while (
     startIndex < lastIndex &&
-    lastIndex - startIndex > rangeLength(maxRange) // only continue if possible to exceed maxRange
+    lastIndex - startIndex > rangeLength(maxRange) // only continue if possible to improve maxRange (best case: remaining series is consecutive)
   ) {
     let innerIndex = startIndex;
     let currentRange = [orderedUnique[startIndex], orderedUnique[startIndex]];
@@ -74,5 +74,4 @@ function rangeLength(arr) {
   return arr[1] - arr[0];
 }
 
-// Do not edit the line below.
 exports.largestConsecutive = largestConsecutive;
