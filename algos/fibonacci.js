@@ -1,3 +1,11 @@
+/* 
+    Takes an argument n and returns the value of the nth number in the Fibonacci sequence. 
+    Can also be done with recursion and memoization.
+*/
+
+/**
+ * @param {number} n 
+*/
 function getNthFib(n) {
     /* ------------------------ */
     // VALIDATION
