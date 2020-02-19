@@ -9,7 +9,7 @@
 
 /**
  *
- * @param {array} matrix
+ * @param {number[][]} matrix
  */
 function riverSizes(matrix) {
   /* ----------------------- */
