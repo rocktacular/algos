@@ -3,6 +3,7 @@ This is a simple repo for solutions to algorhythms and common programming proble
 ### Algorhythms
 
 - Fibonacci
+- First Recurring Character in String
 - River Sizes (2D graph traversal)
 - Largest Consecutive Series
 
