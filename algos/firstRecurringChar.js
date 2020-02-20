@@ -7,14 +7,14 @@
  */
 function firstRecurringChar(str) {
   let result = "";
-  let counts = {};
+  let counts = new Set();
   // use for loop instead of str.split("").forEach() to allow breaking
   for (let i = 0; i < str.length; i++) {
-    if (counts[str[i]]) {
+    if (counts.has(str[i])) {
       result = str[i];
       break;
     }
-    counts[str[i]] = true;
+    counts.add(str[i]);
   }
   return result;
 }
