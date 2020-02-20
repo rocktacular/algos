@@ -21,7 +21,7 @@ function largestConsecutive(array) {
   });
 
   /* ------------------------------------- */
-  // ALGORHYTHM
+  // ALGORITHM
   // reduce to uniques
   const uniques = [...new Set(array)];
 
