@@ -2,10 +2,11 @@ This is a simple repo for solutions to algorithm and common programming problems
 
 ### Algorithms
 
-- Fibonacci
 - First Recurring Character in String
-- River Sizes (2D graph traversal)
+- Fibonacci
+- Sum 2 Numbers in Array
 - Largest Consecutive Series
+- River Sizes (2D graph traversal)
 
 ### Setup
 
@@ -19,4 +20,10 @@ npm i
 
 ```
 npm run test
+```
+
+or to run a specific test
+
+```
+npx mocha ./test/<filename>
 ```
