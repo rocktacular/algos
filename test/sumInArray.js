@@ -34,6 +34,10 @@ describe("Sum In Array", function() {
     chai.expect(program.sumInArray([1, 2, 5, 9], 7)).to.be.true;
   });
 
+  it("unsorted case ([9, 2, 1, 5], 7)", function() {
+    chai.expect(program.sumInArray([1, 2, 5, 9], 7)).to.be.true;
+  });
+
   it("standard case negatives ([-1, 2, 4, 5, 6, 11, 15], 10)", function() {
     chai.expect(program.sumInArray([-1, 2, 4, 5, 6, 11, 15], 10)).to.be.true;
   });
