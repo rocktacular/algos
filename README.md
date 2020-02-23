@@ -5,6 +5,7 @@ This is a simple repo for solutions to algorithm and common programming problems
 - First Recurring Character in String
 - Fibonacci
 - Sum 2 Numbers in Array
+- Product of All Other Numbers in Array
 - Largest Consecutive Series
 - River Sizes (2D graph traversal)
 
