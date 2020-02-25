@@ -1,5 +1,6 @@
 /* 
-    Takes an argument n and returns the roman numeral representation
+    Takes an argument n and returns the roman numeral representation.
+    This is a programmatic solution. I expect a naive solution checking >= is actually pretty fast.
 */
 
 /**
