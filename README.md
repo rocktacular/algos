@@ -7,6 +7,7 @@ This is a simple repo for solutions to algorithm and common programming problems
 - Sum 2 Numbers in Array
 - Product of All Other Numbers in Array
 - Max Area of Array
+- Roman Numerals
 - Largest Consecutive Series
 - River Sizes (2D graph traversal)
 
