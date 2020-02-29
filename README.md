@@ -8,6 +8,7 @@ This is a simple repo for solutions to algorithm and common programming problems
 - Product of All Other Numbers in Array
 - Max Area of Array
 - Roman Numerals
+- Smallest Positive Number
 - Largest Consecutive Series
 - River Sizes (2D graph traversal)
 
