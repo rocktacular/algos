@@ -18,13 +18,14 @@ function sumInArray(nums, target) {
   /* ------------------------ */
   // ALGO
   const seenHash = {}; // hash map to store
-  for (let i = 0; i < nums.length; i++) {
-    if (seenHash[target - nums[i]]) {
-      return true;
+  let solution = false;
+  nums.forEach(num => {
+    if (seenHash[target - num]) {
+      solution = true;
     }
-    seenHash[nums[i]] = true;
-  }
-  return false;
+    seenHash[num] = true;
+  });
+  return solution;
 }
 
 exports.sumInArray = sumInArray;
