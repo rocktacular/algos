@@ -4,6 +4,7 @@ This is a simple repo for solutions to algorithm and common programming problems
 
 - First Recurring Character in String
 - Fibonacci
+- Valid Parentheses
 - Sum 2 Numbers in Array
 - Product of All Other Numbers in Array
 - Max Area of Array
