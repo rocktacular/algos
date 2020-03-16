@@ -47,7 +47,7 @@ var validParen = function(s) {
     }
   }
   // too many opens
-  if (parenCount !== 0 || bracketCount !== 0 || braceCount !== 0) {
+  if (mustClose.length) {
     valid = false;
   }
 
