@@ -9,6 +9,7 @@ This is a simple repo for solutions to algorithm and common programming problems
 - Max Area of Array
 - Roman Numerals
 - Smallest Positive Number
+- Minimum Number of Classrooms
 - Largest Consecutive Series
 - River Sizes (2D graph traversal)
 
