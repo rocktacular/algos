@@ -48,4 +48,36 @@ describe("Linked List Class", function() {
       .expect(newList.remove("aaaa").displayAsArray())
       .to.deep.equal(["third", "second", "first"]);
   });
+
+  it("remove item at index (in bounds)", function() {
+    const newList = new program.LinkedList("first");
+    newList.addToHead("second");
+    newList.addToHead("third");
+    newList.removeAtIndex(1);
+    chai.expect(newList.displayAsArray()).to.deep.equal(["third", "first"]);
+  });
+
+  it("remove item at index (out of bounds)", function() {
+    const newList = new program.LinkedList("first");
+    newList.addToHead("second");
+    newList.addToHead("third");
+    newList.removeAtIndex(5);
+    chai
+      .expect(newList.displayAsArray())
+      .to.deep.equal(["third", "second", "first"]);
+  });
+
+  it("remove item at index returns a value (in bounds)", function() {
+    const newList = new program.LinkedList("first");
+    newList.addToHead("second");
+    newList.addToHead("third");
+    chai.expect(newList.removeAtIndex(1)).to.deep.equal("second");
+  });
+
+  it("remove item at index returns undefined (out of bounds)", function() {
+    const newList = new program.LinkedList("first");
+    newList.addToHead("second");
+    newList.addToHead("third");
+    chai.expect(newList.removeAtIndex(5)).to.deep.equal(undefined);
+  });
 });

@@ -28,6 +28,25 @@ class LinkedList {
     return headValue;
   }
 
+  removeAtIndex(num) {
+    if (num >= this.length) {
+      return undefined;
+    }
+
+    if (num === 0) {
+      return this.removeFromHead();
+    }
+
+    let prevNode = this.head;
+    let currentNode = prevNode.next;
+    for (let i = 1; i < num; i++) {
+      prevNode = currentNode;
+      currentNode = currentNode.next;
+    }
+    prevNode.next = currentNode.next;
+    return currentNode.value;
+  }
+
   remove(value) {
     if (!this.length) return this;
 
