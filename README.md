@@ -6,6 +6,7 @@ This is a simple repo for solutions to algorithm and common programming problems
 - Fibonacci
 - Valid Parentheses
 - Sum 2 Numbers in Array
+- Linked List Class
 - Product of All Other Numbers in Array
 - Max Area of Array
 - Roman Numerals
