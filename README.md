@@ -2,6 +2,7 @@ This is a simple repo for solutions to algorithm and common programming problems
 
 ### Algorithms
 
+- Run Length Encode/Decode
 - First Recurring Character in String
 - Fibonacci
 - Valid Parentheses
