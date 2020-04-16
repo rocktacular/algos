@@ -15,6 +15,7 @@ This is a simple repo for solutions to algorithm and common programming problems
 - Smallest Positive Number
 - Minimum Number of Classrooms
 - Largest Consecutive Series
+- Pot Drainage
 - River Sizes (2D graph traversal)
 
 ### Setup
